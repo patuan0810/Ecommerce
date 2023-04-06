@@ -12,39 +12,36 @@
 						<div class="carousel-inner">
 							<div class="item active">
 								<div class="col-sm-6">
-									<h1><span>DTTK</span>-SHOPPER</h1>
-									<h2>NIKE</h2>
+									<h1><span>DTK</span>-SHOP</h1>
+									<h2>CANON</h2>
 									<p>Hãy để phong cách của bạn nói lên điều đó. </p>
-									<button type="button" class="btn btn-default get">Mua Ngay</button>
+									<button type="button" class="btn btn-default get"><a href="{{URL::to('/san-pham')}}" style="color: white">Mua Ngay</a></button>
 								</div>
 								<div class="col-sm-6">
-									<img src="{{('frontend/images/giay_slider.jpg')}}" class="girl img-responsive" alt="" />
-									<img src="images/home/pricing.png"  class="pricing" alt="" />
+									<img src="{{asset('frontend/images/giay_slider.jpg')}}" class="girl img-responsive" alt="" />
 								</div>
 							</div>
 							<div class="item">
 								<div class="col-sm-6">
-									<h1><span>DTTK</span>-SHOPPER</h1>
-									<h2>Adidas</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									<button type="button" class="btn btn-default get">Mua Ngay</button>
+									<h1><span>DTK</span>-SHOP</h1>
+									<h2>SONY</h2>
+									<p>Hãy để phong cách của bạn nói lên điều đó. </p>
+									<button type="button" class="btn btn-default get"><a href="{{URL::to('/san-pham')}}" style="color: white">Mua Ngay</a></button>
 								</div>
 								<div class="col-sm-6">
-									<img src="frontend/images/home/girl2.jpg" class="girl img-responsive" alt="" />
-									<img src="frontend/images/home/pricing.png"  class="pricing" alt="" />
+									<img src="{{asset('frontend/images/girl2.jpg')}}" class="girl img-responsive" alt="" />
 								</div>
 							</div>
 							
 							<div class="item">
 								<div class="col-sm-6">
-									<h1><span>DTTK</span>-SHOPPER</h1>
-									<h2>Gucci</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-									<button type="button" class="btn btn-default get">Mua Ngay</button>
+									<h1><span>DTK</span>-SHOP</h1>
+									<h2>NIKON</h2>
+									<p>Hãy để phong cách của bạn nói lên điều đó. </p>
+									<button type="button" class="btn btn-default get"><a href="{{URL::to('/san-pham')}}" style="color: white">Mua Ngay</a></button>
 								</div>
 								<div class="col-sm-6">
-									<img src="frontend/images/home/girl3.jpg" class="girl img-responsive" alt="" />
-									<img src="frontend/images/home/pricing.png" class="pricing" alt="" />
+									<img src="{{asset('frontend/images/girl3.jpg')}}" class="girl img-responsive" alt="" />
 								</div>
 							</div>
 							

@@ -15,8 +15,7 @@ class CreateTblOrderDetailsTable extends Migration
     {
         Schema::create('tbl_order_details', function (Blueprint $table) {
             $table->increments('order_details_id');
-            $table->string('order_details');
-            $table->string('order_code');
+            $table->increments('order_id');
             $table->string('product_id');
             $table->string('product_name');
             $table->string('product_price');

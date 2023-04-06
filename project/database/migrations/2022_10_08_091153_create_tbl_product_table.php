@@ -16,10 +16,11 @@ class CreateTblProductTable extends Migration
         Schema::create('tbl_product', function (Blueprint $table) {
             $table->increments('product_id');
             $table->string('product_name');
-            $table->string('product_quantity');
             $table->string('product_details');
+            $table->string('product_guarantee');
+            $table->string('product_origin');
             $table->string('category_id');
-            $table->string('brand_id');
+            $table->string('product_quantity');
 			$table->string('product_price');
 			$table->string('product_image');
 			$table->string('product_image_1');

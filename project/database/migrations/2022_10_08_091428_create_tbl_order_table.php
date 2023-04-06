@@ -16,9 +16,9 @@ class CreateTblOrderTable extends Migration
         Schema::create('tbl_order', function (Blueprint $table) {
             $table->increments('order_id');
             $table->string('customer_id');
-			$table->string('order_code');
+			$table->string('shipping_id');
+            $table->string('order_total');
             $table->string('order_status');
-            $table->string('create_at');
             $table->timestamps();
         });
     }
